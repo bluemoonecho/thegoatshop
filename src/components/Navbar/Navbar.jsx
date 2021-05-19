@@ -14,7 +14,7 @@ const Navbar = () => {
                 <Typography varient='h6' className={classes.title} color='inherit'> 
                     {/* <img src={logo} alt='Commerce.js' height="50px" className={classes.image} /> */}
                     <Storefront style={{ height: '30px', margin : '10px'}}/>
-                    Online Shop
+                    The Goat Shop 🐐  
                 </Typography>
                 <div className={classes.grow}/>
                     <div className={classes.button}>
