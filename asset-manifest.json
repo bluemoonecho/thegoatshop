@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/thegoatshop/static/js/main.c269df54.chunk.js",
+    "main.js.map": "/thegoatshop/static/js/main.c269df54.chunk.js.map",
+    "runtime-main.js": "/thegoatshop/static/js/runtime-main.56d89b89.js",
+    "runtime-main.js.map": "/thegoatshop/static/js/runtime-main.56d89b89.js.map",
+    "static/js/2.9fd000c4.chunk.js": "/thegoatshop/static/js/2.9fd000c4.chunk.js",
+    "static/js/2.9fd000c4.chunk.js.map": "/thegoatshop/static/js/2.9fd000c4.chunk.js.map",
+    "index.html": "/thegoatshop/index.html",
+    "static/js/2.9fd000c4.chunk.js.LICENSE.txt": "/thegoatshop/static/js/2.9fd000c4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.56d89b89.js",
+    "static/js/2.9fd000c4.chunk.js",
+    "static/js/main.c269df54.chunk.js"
+  ]
+}
