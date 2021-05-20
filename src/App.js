@@ -38,6 +38,12 @@ export default function App() {
         setCart(cart);
     }
 
+    const handleCaptureCheckout = async (checkoutTokenId, newOrder) => {
+        try {
+            const incomingOrder = await commerce.checkout.capture(checkoutTokenId)
+        }
+    }
+
     useEffect(() => {
         fetchProducts();
         fetchCart();
