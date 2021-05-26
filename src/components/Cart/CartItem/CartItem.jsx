@@ -1,16 +1,18 @@
 import React from 'react'
-import { Typography, Button, Card, CardActions, CardContent,CardMedia } from '@material-ui/core'
+import { Typography, Button, Card, CardActions, CardContent,CardMedia, CssBaseline } from '@material-ui/core'
 import useStyles from './styles';
 
 const CardItem = ({item, onUpdateCardQty, onRemoveFromCart}) =>  {
     const classes = useStyles();
     
     return (
-        <Card>
+        <>
+        <CssBaseline/>
+        <Card className={classes.cartContainer}>
             <CardMedia image={item.media.source} alt={item.name} className={classes.media}></CardMedia>
             <CardContent className={classes.cartContent}> 
-                <Typography variant='h4'>{item.name}</Typography>
-                <Typography variant='h5'>{item.line_total.formatted_with_symbol}</Typography>
+                <Typography variant='h5'>{item.name}</Typography>
+                <Typography variant='h6'>{item.line_total.formatted_with_symbol}</Typography>
             </CardContent>
             <CardActions className={classes.cardActions}> 
                 <div className={classes.buttons}> 
@@ -20,10 +22,11 @@ const CardItem = ({item, onUpdateCardQty, onRemoveFromCart}) =>  {
                     <Button type='button' size='small' 
                         onClick={()=>onUpdateCardQty(item.id, item.quantity + 1 )}>+</Button>
                 </div>
-                <Button variant="contained" type="button" color="secondary" 
+                <Button variant="contained" size='small' type="button" color="secondary" 
                     onClick={()=>onRemoveFromCart(item.id)}>Remove</Button>
             </CardActions>
         </Card>
+        </>
     )
 } 
 

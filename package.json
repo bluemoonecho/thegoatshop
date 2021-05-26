@@ -1,6 +1,6 @@
 {
   "name": "e_commerce",
-  "homepage": "http://bluemoonecho.github.io/thegoatshop/",
+  "homepage": "https://bluemoonecho.github.io/thegoatshop/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +12,7 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "react": "^17.0.2",
+    "react-chat-bubble": "^0.8.7",
     "react-dom": "^17.0.2",
     "react-hook-form": "^7.6.2",
     "react-router-dom": "^5.2.0",

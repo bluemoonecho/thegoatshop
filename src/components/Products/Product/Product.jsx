@@ -20,6 +20,8 @@ export default function Product({product, onAddToCart}) {
                     <Typography variant='h5'>
                         {product.price.formatted_with_symbol}
                     </Typography>
+                    <br />
+                    <br />
                     <Typography 
                     dangerouslySetInnerHTML={{ __html: product.description }} 
                     variant='body2' 
