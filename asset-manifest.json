@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.js": "/thegoatshop/static/js/main.c269df54.chunk.js",
-    "main.js.map": "/thegoatshop/static/js/main.c269df54.chunk.js.map",
-    "runtime-main.js": "/thegoatshop/static/js/runtime-main.56d89b89.js",
-    "runtime-main.js.map": "/thegoatshop/static/js/runtime-main.56d89b89.js.map",
-    "static/js/2.9fd000c4.chunk.js": "/thegoatshop/static/js/2.9fd000c4.chunk.js",
-    "static/js/2.9fd000c4.chunk.js.map": "/thegoatshop/static/js/2.9fd000c4.chunk.js.map",
-    "index.html": "/thegoatshop/index.html",
-    "static/js/2.9fd000c4.chunk.js.LICENSE.txt": "/thegoatshop/static/js/2.9fd000c4.chunk.js.LICENSE.txt"
+    "main.js": "//bluemoonecho.github.io/thegoatshop/static/js/main.000dc5c9.chunk.js",
+    "main.js.map": "//bluemoonecho.github.io/thegoatshop/static/js/main.000dc5c9.chunk.js.map",
+    "runtime-main.js": "//bluemoonecho.github.io/thegoatshop/static/js/runtime-main.d5e7d1c4.js",
+    "runtime-main.js.map": "//bluemoonecho.github.io/thegoatshop/static/js/runtime-main.d5e7d1c4.js.map",
+    "static/js/2.362de59c.chunk.js": "//bluemoonecho.github.io/thegoatshop/static/js/2.362de59c.chunk.js",
+    "static/js/2.362de59c.chunk.js.map": "//bluemoonecho.github.io/thegoatshop/static/js/2.362de59c.chunk.js.map",
+    "index.html": "//bluemoonecho.github.io/thegoatshop/index.html",
+    "static/js/2.362de59c.chunk.js.LICENSE.txt": "//bluemoonecho.github.io/thegoatshop/static/js/2.362de59c.chunk.js.LICENSE.txt",
+    "static/media/goat-vector.c0dfa998.jpeg": "//bluemoonecho.github.io/thegoatshop/static/media/goat-vector.c0dfa998.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.56d89b89.js",
-    "static/js/2.9fd000c4.chunk.js",
-    "static/js/main.c269df54.chunk.js"
+    "static/js/runtime-main.d5e7d1c4.js",
+    "static/js/2.362de59c.chunk.js",
+    "static/js/main.000dc5c9.chunk.js"
   ]
 }
