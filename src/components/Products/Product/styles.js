@@ -8,7 +8,7 @@ export default makeStyles(() => ({
         backgroundImage: 'cover',
         marginLeft: '20%',
         width: '70%',
-        height: '100px',
+        height: '70px',
         paddingTop: '56.25%', // 16:9
     },
     cardActions: {
@@ -22,9 +22,9 @@ export default makeStyles(() => ({
         height: '100px'
     },
     line:{
-        border: ' solid 0.1px',
-        width: '100%',
-        // color: 'black',
+        border: 'none',
+        borderBottom: '1px solid gainsboro',
+        marginBottom: '30px',
     },
 
 }));

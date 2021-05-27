@@ -25,4 +25,9 @@ export default makeStyles(() => ({
         display: 'flex',
         alignItems: 'center',
     },
+    line:{
+        width: '90%',
+        border: 'none',
+        borderBottom: '1px solid gainsboro',
+    }
 }));

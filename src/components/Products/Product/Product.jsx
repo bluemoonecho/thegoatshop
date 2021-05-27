@@ -17,7 +17,7 @@ export default function Product({product, onAddToCart}) {
                     <Typography variant='h5' gutterBottom>
                         {product.name}
                     </Typography>
-                    <Typography variant='h5'>
+                    <Typography variant='h6'>
                         {product.price.formatted_with_symbol}
                     </Typography>                   
                     <Typography 
@@ -26,12 +26,13 @@ export default function Product({product, onAddToCart}) {
                     color='textSecondary'/>
                 </div>
             </CardContent>
-            <CardActions disableSpacing className={classes.cardActions}>
+            <CardActions className={classes.cardActions}>
                 <IconButton aria-label='Add to Cart' onClick={() => onAddToCart(product.id, 1)}>
-                    <AddShoppingCart/>
+                    <AddShoppingCart style={{fontSize : '35px'}}/>
                 </IconButton>
             </CardActions>
             
         </Card>
     )
 }
+//disableSpacing 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppBar, Toolbar, IconButton, Badge, MenuItem, Menu, Typography} from '@material-ui/core'
+import { AppBar, Toolbar, IconButton, Badge, Typography} from '@material-ui/core'
 import { ShoppingCart, Storefront } from '@material-ui/icons'
 import useStyles from './styles';
 import { Link, useLocation } from 'react-router-dom'
@@ -13,12 +13,14 @@ const Navbar = ({totalItems}) => {
     <>
         <AppBar position='fixed' className={classes.appBar} color= 'inherit'>
             <Toolbar>
+                <Link to={'/goats'}>
+                    <Storefront style={{ height: '30px', margin : '10px', color: 'black'}}/>
+                </Link>
                 <Typography component={Link} to='/' varient='h6' className={classes.title} color='inherit'> 
-                    <Storefront style={{ height: '30px', margin : '10px'}}/>
                     The Goat Shop 🐐  
                 </Typography>
                 <div className={classes.grow}/>
-                {location.pathname === '/' && (
+                {(location.pathname === '/' || '/goats') && (
                 <div className={classes.button}>
                     <IconButton component={Link} to='/cart' aria-label="Show cart items" color='inherit'> 
                         <Badge badgeContent={totalItems} color='secondary'>

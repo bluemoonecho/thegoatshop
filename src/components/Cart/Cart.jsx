@@ -25,11 +25,11 @@ const Cart = ({cart, handleUpdateCartQty, handleRemoveFromCart, handleEmptyCart}
             ))}
         </Grid>
         <div className={classes.cardDetails}>
-                    <Typography variant='h4'>
+                    <Typography variant='h5'>
                     Subtotal: {cart.subtotal.formatted_with_symbol}
                     </Typography>
                     <div>
-                        <Button className={classes.emptyButton} size='large' type='button' variant='contained' color='secondary' onClick={handleEmptyCart}>Empty Cart</Button>
+                        <Button className={classes.emptyButton} variant="contained" size='large' type="button" color="secondary" onClick={handleEmptyCart}>Empty Cart</Button>
                         <Button component={Link}  to='/checkout' className={classes.checkoutButton} size='large' type='button' variant='contained' color='primary'>Check Out</Button>
                     </div>
         </div>
@@ -39,11 +39,11 @@ const Cart = ({cart, handleUpdateCartQty, handleRemoveFromCart, handleEmptyCart}
     if(!cart.line_items) return 'Loading...';
 
     return (
-        <Container>
+        <Container className={classes.container}>
             <div className={classes.toolbar}/>
-            <Typography className={classes.title} variant='h4' gutterBottom>
+            <Typography className={classes.title} variant='h5' gutterBottom>
                 Your Shopping Cart
-            </Typography>
+            </Typography>        
             {!cart.line_items.length ? <EmptyCart/> : <FilledCart/>}
         </Container>
     )  

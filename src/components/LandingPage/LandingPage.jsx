@@ -17,7 +17,7 @@ const LandingPage = () => {
         <div className={classes.container}>
             <div className={classes.textDiv}>
             <Sparkles>
-                <Typography variant='h4'>Welcome to<br/>the Goat Shop</Typography>
+                <Typography style={{marginBottom: '10px'}}variant='h4'>Welcome to<br/>the Goat Shop</Typography>
             </Sparkles> 
             <Sparkles>      
                 <Link to='/goats' className={classes.link}>     

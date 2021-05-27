@@ -7,7 +7,7 @@ export default makeStyles((theme) => ({
     container: {
         display: 'flex',
         flexDirection: 'row',
-        alignItems: 'space-between',
+        alignItems: 'center',
         marginTop: '100px',
         justifyContent: 'center',
         border: 'solid',
@@ -15,13 +15,19 @@ export default makeStyles((theme) => ({
             flexWrap: 'wrap',
             },
         backgroundColor: 'white',
-
     },
     
     goat: {
-        width: '35vw',
+        width: '20vw',
         height: '30vh',
-        margin: '10vh',   
+        margin: '10vh',
+        [theme.breakpoints.down('sm')]: {
+            width: '40vw',
+            height: '30vh',
+            },
+        // marginRight: '10vh', 
+        // marginTop: '10vh',
+        // marginBottom: '10vh',
     },
     link:{
         textDecoration: 'none',
@@ -30,14 +36,12 @@ export default makeStyles((theme) => ({
     textDiv: {
         textAlign: 'center',
         display: 'flex',
-        justifyContent: 'center',
         flexDirection: 'column',
-        alignItems: 'center',
-        alignContent: 'center',
         margin: '10vh',
         backgroundColor: 'white',
         borderRadius: "50%",
-        width: '270vw',
+        width: '50vw',
+    
         
     },
     // container: {

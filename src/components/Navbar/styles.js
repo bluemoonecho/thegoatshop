@@ -19,7 +19,6 @@ export default makeStyles((theme) => ({
     },
     image: {
         marginRight: '10px',
-        // width: '50px',
         heigth: '100px',
     },
     menuButton: {
