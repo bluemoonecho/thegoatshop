@@ -8,20 +8,18 @@ export default function Product({product, onAddToCart}) {
     
     const classes = useStyles();
 
-
     return (
         <Card classsName={classes.root}>
             <CardMedia className={classes.media} image={product.media.source} title={product.name}/>
             <CardContent>
+            <hr className={classes.line}></hr>
                 <div className={classes.cardContent}>
                     <Typography variant='h5' gutterBottom>
                         {product.name}
                     </Typography>
                     <Typography variant='h5'>
                         {product.price.formatted_with_symbol}
-                    </Typography>
-                    <br />
-                    <br />
+                    </Typography>                   
                     <Typography 
                     dangerouslySetInnerHTML={{ __html: product.description }} 
                     variant='body2' 

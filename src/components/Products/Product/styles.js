@@ -6,7 +6,8 @@ export default makeStyles(() => ({
     },
     media: {
         backgroundImage: 'cover',
-        width: '260px',
+        marginLeft: '20%',
+        width: '70%',
         height: '100px',
         paddingTop: '56.25%', // 16:9
     },
@@ -16,7 +17,14 @@ export default makeStyles(() => ({
     },
     cardContent: {
         display: 'flex',
+        flexDirection: 'column',
         justifyContent: 'space-between',
         height: '100px'
     },
+    line:{
+        border: ' solid 0.1px',
+        width: '100%',
+        // color: 'black',
+    },
+
 }));
